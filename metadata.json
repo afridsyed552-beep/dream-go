@@ -1,0 +1,7 @@
+{
+  "name": "Floating Vehicle Login",
+  "description": "A visually immersive login page featuring floating UI elements, glassmorphism aesthetics, and a slideshow of super bikes and super cars.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
