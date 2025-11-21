@@ -32,9 +32,9 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold text-white mb-2 tracking-wider flex items-center justify-center gap-2 text-glow">
           <Sparkles size={24} className="text-pink-400" />
-          LOGIN
+          DREAM GO
         </h1>
-        <p className="text-white/50 text-sm">Enter your credentials to sync.</p>
+        <p className="text-white/50 text-sm">Enter your credentials to access Dream Go.</p>
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-6">
@@ -46,7 +46,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
               value={userId}
               onChange={(e) => setUserId(e.target.value)}
               className="w-full bg-black/20 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-pink-500/50 focus:bg-black/40 transition-all duration-300"
-              placeholder="Agent-001"
+              placeholder="DreamUser-001"
             />
             <div className="absolute inset-0 rounded-xl bg-pink-500/20 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-300 blur-sm -z-10"></div>
           </div>
@@ -94,7 +94,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
               </>
             ) : (
               <>
-                Continue
+                Start Dream Go
                 <ArrowRight size={20} />
               </>
             )}

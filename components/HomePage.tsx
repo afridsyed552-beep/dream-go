@@ -17,7 +17,7 @@ export const HomePage: React.FC<HomePageProps> = ({ username, onLogout }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false); // For mobile
 
   const navItems = [
-      { id: 'dashboard', label: 'Dashboard', icon: Home },
+      { id: 'dashboard', label: 'Dream Go Dashboard', icon: Home },
       { id: 'news', label: 'Global News', icon: Globe },
       { id: 'magazines', label: 'Magazines', icon: BookOpen },
       { id: 'activity', label: 'Routine & Activity', icon: Activity },
@@ -31,9 +31,9 @@ export const HomePage: React.FC<HomePageProps> = ({ username, onLogout }) => {
                   <div className="space-y-8 animate-fade-in">
                     {/* Welcome Banner */}
                     <div className="glass-panel p-8 rounded-3xl border-l-4 border-blue-500 w-full">
-                        <h2 className="text-3xl font-black text-white mb-2 italic uppercase">Daily <span className="text-blue-400 text-glow">Intelligence</span></h2>
+                        <h2 className="text-3xl font-black text-white mb-2 italic uppercase">Dream Go <span className="text-blue-400 text-glow">Intelligence</span></h2>
                         <p className="text-gray-400 text-sm leading-relaxed max-w-2xl">
-                            Welcome back, {username}. Your digital cockpit is ready. Systems nominal.
+                            Welcome back, {username}. Your Dream Go experience is ready. Systems nominal.
                         </p>
                     </div>
                     
@@ -101,7 +101,7 @@ export const HomePage: React.FC<HomePageProps> = ({ username, onLogout }) => {
       <div className="md:hidden absolute top-0 left-0 w-full p-4 z-50 flex justify-between items-center bg-black/50 backdrop-blur-md border-b border-white/10">
           <div className="flex items-center gap-2">
              <Car className="text-blue-400" size={20} />
-             <span className="font-bold tracking-wide">M2 COCKPIT</span>
+             <span className="font-bold tracking-wide">DREAM GO</span>
           </div>
           <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className="text-white">
               <Menu />
@@ -119,7 +119,7 @@ export const HomePage: React.FC<HomePageProps> = ({ username, onLogout }) => {
                         <Car className="text-blue-400" size={24} />
                     </div>
                     <div>
-                        <h1 className="text-lg font-bold text-white tracking-wide leading-none">M2 COCKPIT</h1>
+                        <h1 className="text-lg font-bold text-white tracking-wide leading-none">DREAM GO</h1>
                         <p className="text-[10px] text-blue-300 uppercase tracking-wider mt-1">System Online</p>
                     </div>
                 </div>

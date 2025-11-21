@@ -6,14 +6,14 @@ export const VehicleSlider: React.FC = () => {
       {/* Main Container */}
       <div className="relative w-full max-w-[600px] aspect-[4/3] md:aspect-[16/10] rounded-[30px] overflow-visible group perspective-1000">
         
-        {/* BMW M Branding Glow */}
+        {/* Branding Glow */}
         <div className="absolute inset-0 bg-gradient-to-tr from-[#009CDD] via-[#1B3290] to-[#E01D27] rounded-[30px] blur-[60px] opacity-40 group-hover:opacity-60 transition-opacity duration-500"></div>
 
         {/* Image Container */}
         <div className="relative w-full h-full rounded-[30px] overflow-hidden shadow-2xl border border-white/10 bg-black transform transition-transform duration-500 hover:scale-[1.01]">
             <img
             src="https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=1200&auto=format&fit=crop"
-            alt="BMW M4 Competition"
+            alt="Dream Go Vehicle"
             className="w-full h-full object-cover transform scale-110 group-hover:scale-105 transition-transform duration-[2s]"
             />
             
@@ -24,10 +24,10 @@ export const VehicleSlider: React.FC = () => {
             {/* UI Overlay */}
             <div className="absolute top-6 left-6 flex items-center gap-3 z-10">
                 <div className="w-12 h-12 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center border border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.1)]">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/2048px-BMW.svg.png" alt="BMW Logo" className="w-8 h-8" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/2048px-BMW.svg.png" alt="Logo" className="w-8 h-8" />
                 </div>
                 <div>
-                    <h3 className="text-white font-bold text-sm tracking-widest drop-shadow-md">CONNECTED DRIVE</h3>
+                    <h3 className="text-white font-bold text-sm tracking-widest drop-shadow-md">DREAM GO SYSTEMS</h3>
                     <p className="text-blue-400 text-[10px] font-mono tracking-wider flex items-center gap-1">
                         <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
                         SYSTEM ONLINE
@@ -40,10 +40,10 @@ export const VehicleSlider: React.FC = () => {
                     <span className="h-5 w-1.5 bg-[#009CDD] skew-x-[-20deg] shadow-[0_0_10px_#009CDD]"></span>
                     <span className="h-5 w-1.5 bg-[#1B3290] skew-x-[-20deg] shadow-[0_0_10px_#1B3290]"></span>
                     <span className="h-5 w-1.5 bg-[#E01D27] skew-x-[-20deg] shadow-[0_0_10px_#E01D27]"></span>
-                    <span className="text-white font-black italic text-xl ml-2 tracking-tighter drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">M PERFORMANCE</span>
+                    <span className="text-white font-black italic text-xl ml-2 tracking-tighter drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">DREAM GO PERFORMANCE</span>
                  </div>
                  <h1 className="text-4xl md:text-5xl font-black text-white uppercase italic tracking-tighter leading-none drop-shadow-2xl">
-                    M4 <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Competition</span>
+                    DREAM <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">GO</span>
                  </h1>
             </div>
 
